@@ -1,0 +1,17 @@
+GET  http://localhost:3000/sites
+#################################################
+
+GET  http://localhost:3000/sites/1
+
+#################################################
+POST  http://localhost:3000/sites
+Content-Type: application/json
+
+{
+  "name": "Amazing",
+  "siteDescription":"cool"
+}
+#################################################
+DELETE http://localhost:3000/sites/61c8015353e13343bfcec287
+
+ ################################################# 
